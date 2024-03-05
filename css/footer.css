@@ -1,0 +1,27 @@
+.bg-footer {
+  background: #252641;
+}
+
+.Logo {
+  width: 114px;
+  /* height: 83px; */
+}
+
+.text-footer {
+  color: #fff;
+}
+
+.text2-footer {
+  color: #b2b3cf;
+}
+
+.footer-input {
+  background-color: #252641;
+  border: 1px solid;
+  color: #83839a;
+  border-radius: 80px;
+  width: 300px;
+  height: 40px;
+  align-items: center;
+  padding-left: 20px;
+}
