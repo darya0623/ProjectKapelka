@@ -1,0 +1,128 @@
+.Marketing-main{
+    padding: 77px 50px 174px 150px;
+}
+
+.Marketing-content {
+  display: flex;
+  margin-top: 70px;
+}
+
+.title-header4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Marketing-title{
+font-weight: 500;
+font-size: 30px;
+letter-spacing: 0.02em;
+color: #000;
+}
+
+.text-marketing{
+font-weight: 700;
+font-size: 20px;
+color: #49bbbd;
+}
+
+.row-5 {
+  width: 700px;
+  display: flex;
+  gap: 130px;
+}
+
+.cart-body-3 {
+  text-align: start;
+}
+
+.cart-body-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.marketing-desing {
+  display: flex;
+  gap: 5px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+
+.marketing-time {
+  display: flex;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+
+.Marketing-title2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #252641;
+}
+
+.marketing-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+  padding-top: 26px;
+}
+
+.cart-body-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.service-from {
+  display: flex;
+  gap: 8px;
+}
+
+.owner-service {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #000;
+  padding-top: 10px;
+}
+
+.price {
+  display: flex;
+  gap: 15px;
+  padding-top: 12px;
+}
+
+.price-text1 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.price-text2 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #49bbbd;
+}
+
+.card-4 {
+    padding: 15px;
+  border-radius: 20px;
+  width: 374px;
+  height: 580px;
+  box-shadow: 0 19px 47px 0 rgba(47, 50, 125, 0.1);
+  background: #fff;
+}
