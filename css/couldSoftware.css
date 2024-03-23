@@ -1,0 +1,78 @@
+.cloudSoftware-main{
+    margin-top: 131px;
+    margin-bottom: 158px;
+}
+
+.cloudSoftware-title {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 36px;
+}
+
+.cloudSoftware-title2 {
+  color: #2f327d;
+}
+
+.cloudSoftware-title3 {
+  color: #00cbb8;
+}
+
+.cloudSoftware-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  text-align: center;
+  color: #696984;
+}
+
+.cloudSoftware-content {
+  display: flex;
+  margin-top: 100px;
+}
+
+.row-4 {
+  width: 900px;
+  display: flex;
+  gap: 250px;
+  margin-left: 250px;
+}
+
+.cart-body-2 {
+  text-align: center;
+ 
+}
+
+.cloudSoftware-title4 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #2f327d;
+}
+
+.cloudSoftware-text2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+  color: #696984;
+}
+
+.docum{
+    width: 160px;
+    margin-inline: auto;
+}
+
+/* 
+.row-4{
+border-radius: 20px;
+width: 450px;
+height: 430px;
+box-shadow: 0 10px 60px 0 rgba(38, 45, 118, 0.08); 
+ background: #fff;
+}
+
+.card-3{
+    display: flex;
+    gap: 50px;
+} */
