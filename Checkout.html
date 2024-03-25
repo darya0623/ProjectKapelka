@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    
+    <main>
+        <div class="checkout">
+            <div class="checkout-main">
+                <div class="checkout-content">
+                    <div class="checkout-row">
+                        <div class="checkout-login">
+                            <h2 class="Checkout-title">Checkout</h2>
+                            <p class="Checkout-text">Cart Type</p>
+                            <div class="cards">
+                                <img src="./images/cart/Paypal.svg" alt="error" style="border: 0.50px solid #49bbbd;
+                                border-radius: 10px;
+                                width: 139px;
+                                height: 80px;">
+                                <img src="./images/cart/am_amex_06 1.svg" alt="error" style="width: 135px;">
+                                <img src="./images/cart/visa.svg" alt="error" style="width: 135px;">
+                                <img src="./images/cart/mastercard.png" alt="error" style="border: 1px solid #d9d9d9;
+                                border-radius: 15px;
+                                width: 170px;
+                                height: 80px;">
+                            </div>
+                            <p class="Checkout-text">Name on Card</p>
+                            <input type="text" id="card-name" placeholder="Enter name on Card">
+                            <p class="Checkout-text">Card Number</p>
+                            <input type="text" id="card-name" placeholder="Enter Card Number">
+                            <div class="Date-cvc">
+                               <div class="Date">
+                                <p class="Checkout-text">Expiration Date ( MM/YY )</p>
+                                <input type="text" id="card-date" placeholder="Enter Expiration Date">
+                               </div>
+                                <div class="cvc">
+                                    <p class="Checkout-text">CVC</p>
+                                <input type="text" id="card-cvc" placeholder="Enter CVC">
+                                </div>
+                            </div>
+                            <div class="Save-info">
+                                <input type="checkbox" style="height: 30px;">
+                                <p  class="Checkout-text-2">Save my information for faster checkout</p>
+                            </div>
+                            <button class="payment">Confirm Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-footer">
+        <div class="footer-main">
+          <div class="footer-icon">
+            <img class="Logo" src="./images/Logo.svg" alt="Logo" />
+            <h4 class="text-footer">Virtual Class for Zoom</h4>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h4 class="text2-footer">Subscribe to get our Newsletter</h4>
+          <div class="Subscribe-email">
+            <input class="footer-input" type="email" placeholder="Your Email" />
+            <button class="button-subscribe">Subscribe</button>
+          </div>
+        </div>
+        <div class="footer-additionally">
+          <div class="list">
+            <a class="text2-footer" href="/">Careers</a>
+            <a class="text3-footer" href="/">Privacy Policy</a>
+            <a class="text3-footer" href="/">Terms & Conditions</a>
+          </div>
+          <div class="footer-info">
+            <p class="text2-footer">© 2021 Class Technologies Inc.</p>
+          </div>
+        </div>
+      </footer>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+</body>
+</html>
