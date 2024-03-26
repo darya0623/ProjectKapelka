@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1710px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.row-center {
+  justify-content: center;
+}
+
+a,
+span,
+button,
+input,
+label,
+textarea {
+  display: inline-block;
+}
+
+.badge {
+  background: rgba(73, 187, 189, 0.1);
+  border-radius: 36px;
+  padding: 13px 26px;
+}
