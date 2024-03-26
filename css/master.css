@@ -1,0 +1,52 @@
+.image {
+  width: 1920px;
+  height: 652px;
+}
+
+.h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 180%;
+  text-align: center;
+  color: #2f327d;
+  margin-left: 118px;
+  margin-top: 150px;
+}
+
+.container .p > * {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+
+}
+
+.groups .groups > * {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #696984;
+  border-radius: 36px;
+  width: 136px;
+  height: 49px;
+  background: rgba(73, 187, 189, 0.1);
+
+}
+
+.article-keys > * + * {
+  margin-left: 35px;
+}
+
+.article-desc > * + * {
+  margin-top: 30px;
+  margin-left: 118px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+  color: #696984;
+}
